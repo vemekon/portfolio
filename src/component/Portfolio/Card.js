@@ -49,11 +49,7 @@ const Card = (props) => {
                 Cupiditate distinctio assumenda explicabo veniam temporibus
                 eligendi.
               </p>
-              <p>
-                Consectetur adipisicing elit. Cupiditate distinctio assumenda.
-                dolorum alias suscipit rerum maiores aliquam earum odit, nihil
-                culpa quas iusto hic minus!
-              </p>
+              <p>Consectetur adipisicing elit.</p>
               <div className="button f_flex mtop">
                 <button className="btn_shadow">
                   <a href={props.address}>VIEW PROJECT</a>

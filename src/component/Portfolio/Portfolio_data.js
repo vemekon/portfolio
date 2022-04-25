@@ -20,16 +20,16 @@ const Portfolio_data = [
     category: "PHOTOSHOP",
     totalLike: "630",
     title: "Logo design creativity & Application ",
-    image: "aston-visit-pic.png",
-    address: "https://aston-deliver-food.netlify.app/",
+    image: "stateagent.png",
+    address: "https://bsam.herokuapp.com/",
   },
   {
     id: 4,
     category: "FIGMA",
     totalLike: "360",
     title: "Mobile app landing design & Services",
-    image: "aston-visit-pic.png",
-    address: "https://aston-deliver-food.netlify.app/",
+    image: "mobileexpress.png",
+    address: "https://mobileexpress.herokuapp.com/",
   },
 ];
 export default Portfolio_data;
