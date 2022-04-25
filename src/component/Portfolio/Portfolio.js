@@ -40,7 +40,7 @@ const Portfolio = () => {
               <div className='title'>
                   <h2>Mobile app landing design & Services</h2>
                 <a href='' className='arrow'>
-                  <i class='fas fa-arrow-right'></i>
+                  <i className='fas fa-arrow-right'></i>
                 </a>
               </div>
             </div>*/}
