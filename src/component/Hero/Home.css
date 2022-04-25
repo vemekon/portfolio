@@ -38,10 +38,10 @@
   margin: 30px 0 30px 0;
 }
 .hero_btn button {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .hero_btn i {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .hero_btn button img {
@@ -69,6 +69,7 @@
   right: 10%;
   width: 510px;
 }
+
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {
