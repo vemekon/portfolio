@@ -1,14 +1,14 @@
 import React from "react";
 import "./Home.css";
-import hero from "../pic/hero.png";
+import hero from "../pic/pair.png";
 
-import { Typewriter } from "react-simple-typewriter";
 import { DiJavascript } from "react-icons/di";
 import { GrReactjs } from "react-icons/gr";
 import { GrNode } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -24,17 +24,15 @@ const Home = () => {
               a
               <span>
                 <Typewriter
-                  words={[
-                    " Professional Coder.",
-                    " Developer.",
-                    " UI Designer.",
-                  ]}
-                  loop
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
+                  options={{
+                    strings: [
+                      " Professional Coder.",
+                      " Developer.",
+                      " UI Designer.",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
                 />
               </span>
             </h2>
@@ -93,7 +91,7 @@ const Home = () => {
           </div>
           <div className="right">
             <div className="right_img">
-              <img src={hero} alt="" />
+              <img src={hero} alt="" />{" "}
             </div>
           </div>
         </div>

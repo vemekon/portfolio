@@ -12,7 +12,7 @@ body {
   background-color: #ecf0f3;
 }
 .container {
-  max-width: 95%;
+  max-width: 98%;
   margin: auto;
   
 }
@@ -121,13 +121,38 @@ footer {
 footer p {
   margin-top: 30px;
 }
+.small-logo{
+  display: flex;
+}
+
+.small-logo img , .footer-logo img{
+  width:65px;
+  height: 65px;
+}
+.small-logo p{
+  padding:5px;
+  font-weight: 800;
+  font-size: 35px;
+}
 /*----------Footer---------*/
 @media (max-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
   .left,
   .right {
     width: 100%;
+    
+    
   }
+  .left{
+    margin-top: 50%;
+  }
+  h3,h1{
+    font-size: medium;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  
 }

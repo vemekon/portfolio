@@ -50,15 +50,11 @@ const Contact = () => {
                 </div>
                 <div className="details">
                   <h1>Samuel Mekonen</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>
-                    I am available for freelance work. Connect with me via and
-                    call in to my account.
-                  </p>{" "}
-                  <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
-                  <span>FIND WITH ME</span>
+                  <p>Front-end developer</p>
+                  <p>I am available for your freelance work.</p> <br />
+                  <p>Phone: 07460722844</p>
+                  <p>Email: vemekon@gmail.com</p> <br />
+                  <span>FIND ME</span>
                   <div className="button f_flex">
                     <button className="btn_shadow">
                       <i className="fab fa-facebook-f"></i>

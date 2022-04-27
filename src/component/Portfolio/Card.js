@@ -55,6 +55,10 @@ const Card = (props) => {
                   <a href={props.address}>VIEW PROJECT</a>
                   <i class="fas fa-chevron-right"></i>
                 </button>
+                <button className="btn_shadow">
+                  <a href={props.sourceCode}>VIEW SOURCE CODE</a>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <i className="fas fa-times"></i>

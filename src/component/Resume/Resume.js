@@ -10,8 +10,8 @@ const Resume = () => {
       <section className="Resume" id="resume">
         <div className="container top">
           <div className="heading text-center">
-            <h4>18 MONTHS+ OF EXPERIENCE</h4>
-            <h1>My Resume</h1>
+            <h4>16 MONTHS+ OF EXPERIENCE</h4>
+            <h1>My CV</h1>
           </div>
 
           <div className="content-section mtop d_flex">

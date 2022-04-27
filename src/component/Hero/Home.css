@@ -85,4 +85,8 @@
     width: 100%;
     height: 54vh;
   }
+  .hero h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
 }

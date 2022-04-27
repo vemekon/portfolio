@@ -23,6 +23,7 @@ const Portfolio = () => {
                   totalLike={value.totalLike}
                   title={value.title}
                   address={value.address}
+                  sourceCode={value.sourceCode}
                 />
               );
             })}
