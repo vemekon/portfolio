@@ -153,6 +153,11 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+  .small-logo p{
+    padding:5px;
+    font-weight: 600;
+    font-size: 30px;
+  }
  
   
 }

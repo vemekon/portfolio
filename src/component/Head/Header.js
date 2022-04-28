@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./header.css";
 import logo from "../pic/main.png";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { GrClose } from "react-icons/gr";
 
 const Header = () => {
   // fixed Header
@@ -50,9 +52,14 @@ const Header = () => {
 
             <button className="toggle" onClick={() => setMobile(!Mobile)}>
               {Mobile ? (
-                <i className="fas fa-times close home-btn"></i>
+                <i className="close home-btn">
+                  <GrClose />
+                </i>
               ) : (
-                <i className="fas fa-bars open"></i>
+                <i className="fas fa-bars open">
+                  {" "}
+                  <GiHamburgerMenu />
+                </i>
               )}
             </button>
           </div>
