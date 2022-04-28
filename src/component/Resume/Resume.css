@@ -87,4 +87,7 @@
     top: 14%;
     height: 105vh;
   }
+  .content-section .left{
+    margin: 0;
+  }
 }

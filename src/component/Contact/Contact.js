@@ -57,7 +57,7 @@ const Contact = () => {
         <div className="container top">
           <div className="heading text-center">
             <h4>CONTACT</h4>
-            <h1>Contact With Me</h1>
+            <h2>Contact Me</h2>
           </div>
 
           <div className="content d_flex">

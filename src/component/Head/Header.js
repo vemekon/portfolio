@@ -16,7 +16,7 @@ const Header = () => {
         <div className="container d_flex">
           <div className="logo small-logo">
             <img src={logo} alt="" />
-            <p>Bio</p>
+            <p className="home-btn">My Portfolio</p>
           </div>
 
           <div className="navlink">
@@ -45,9 +45,6 @@ const Header = () => {
               </li>
               <li>
                 <a href="#contact">contact</a>
-              </li>
-              <li>
-                <button className="home-btn">BUY NOW</button>
               </li>
             </ul>
 
