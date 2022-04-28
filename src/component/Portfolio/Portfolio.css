@@ -56,6 +56,9 @@
 .Portfolio .box:hover {
   color: black;
 }
+.Portfolio .img{
+  height:150px;
+}
 /*------------popup--------*/
 body.active-modal {
   overflow-y: hidden;
@@ -132,6 +135,11 @@ body.active-modal {
 .modal-text button.close-modal i {
   margin: 0;
 }
+.close-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*------------popup--------*/
 @media (max-width: 768px) {
   .modal,
@@ -148,5 +156,8 @@ body.active-modal {
   .modal .right,
   .modal .left {
     padding: 0;
+  }
+  .Portfolio .img{
+    height:210px;
   }
 }

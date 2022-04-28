@@ -24,6 +24,7 @@ const Portfolio = () => {
                   title={value.title}
                   address={value.address}
                   sourceCode={value.sourceCode}
+                  details={value.details}
                 />
               );
             })}

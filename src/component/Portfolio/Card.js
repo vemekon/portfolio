@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { GrClose } from "react-icons/gr";
 
 const Card = (props) => {
   const [modal, setModal] = useState(false);
@@ -44,11 +45,7 @@ const Card = (props) => {
             <div className="modal-text right">
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate distinctio assumenda explicabo veniam temporibus
-                eligendi.
-              </p>
+              <p>{props.details}</p>
               <p>Consectetur adipisicing elit.</p>
               <div className="button f_flex mtop">
                 <button className="btn_shadow">
@@ -61,7 +58,7 @@ const Card = (props) => {
                 </button>
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
-                <i className="fas fa-times"></i>
+                <GrClose />
               </button>
             </div>
           </div>

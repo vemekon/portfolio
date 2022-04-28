@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import contact1 from "./contact1.png";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
@@ -10,6 +11,8 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+
+  const form = useRef();
 
   const InputEvent = (event) => {
     const { name, value } = event.target;
@@ -24,14 +27,29 @@ const Contact = () => {
 
   const formSubmit = (event) => {
     event.preventDefault();
-    alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
-    );
+    emailjs
+      .sendForm(
+        "vemekon",
+        "template_1t3cjfp",
+        form.current,
+        "h0nMcOaXtcGU8m0K3"
+      )
+      .then(
+        (result) => {
+          alert(`Message successfully sent to Samuel`);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    setData({
+      fullname: "",
+      phone: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
   };
   return (
     <>
@@ -71,7 +89,7 @@ const Contact = () => {
             </div>
 
             <div className="right box_shodow">
-              <form onSubmit={formSubmit}>
+              <form onSubmit={formSubmit} ref={form}>
                 <div className="f_flex">
                   <div className="input row">
                     <span>YOUR NAME</span>
